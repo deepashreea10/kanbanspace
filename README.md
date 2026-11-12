@@ -1,5 +1,10 @@
 # Kanbanspace
 
+![Light theme](light.png)
+![Dark theme](dark.png)
+![Analytics](analytics.png)
+![Command palette](palette.png)
+
 A frontend-only Kanban and task management app built with React. It runs entirely in the browser and saves your data to localStorage.
 
 **Live demo:** https://2791324.playcode.site
