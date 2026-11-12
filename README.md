@@ -26,3 +26,28 @@ A frontend-only Kanban and task management app built with React. It runs entirel
 - Built and deployed with PlayCode
 
 ## Project structure
+
+src/
+App.jsx # components, state and logic
+index.jsx # React entry point
+styles.css # theme tokens and all styles
+package.json
+
+
+## How data is stored
+
+Everything is saved in the browser's localStorage under the key `kanban-workspace-v1`. Use **Data → Export workspace (JSON)** to back up or move your data. Importing a file replaces the current workspace after a confirmation prompt.
+
+## Running locally
+
+This project was built in [PlayCode](https://playcode.io/react). To run it elsewhere, create a React 18 project (for example with Vite), copy the files in `src/` into it and start the dev server.
+
+## Possible next steps
+
+- Split `App.jsx` into smaller components and use `useReducer`
+- Touch-friendly drag and drop
+- Cloud sync
+
+## License
+
+MIT
