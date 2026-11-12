@@ -27,16 +27,19 @@ A frontend-only Kanban and task management app built with React. It runs entirel
 
 ## Project structure
 
+```
 src/
-App.jsx # components, state and logic
-index.jsx # React entry point
-styles.css # theme tokens and all styles
+  App.jsx      # components, state and logic
+  index.jsx    # React entry point
+  styles.css   # theme tokens and all styles
 package.json
-
+```
 
 ## How data is stored
 
-Everything is saved in the browser's localStorage under the key `kanban-workspace-v1`. Use **Data → Export workspace (JSON)** to back up or move your data. Importing a file replaces the current workspace after a confirmation prompt.
+Everything is saved in the browser's localStorage under the key `kanban-workspace-v1`.
+
+Use **Data → Export workspace (JSON)** to back up or move your data. Importing a file replaces the current workspace after a confirmation prompt.
 
 ## Running locally
 
